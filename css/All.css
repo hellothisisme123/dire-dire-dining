@@ -1,0 +1,104 @@
+html {
+    background-color: #d3d3d3;
+}
+
+@font-face {
+  font-family: SuperMario256;
+  src: url(../Fonts/SuperMario256.ttf);
+}
+
+@font-face {
+  font-family: WindenBold;
+  src: url(../Fonts/winden-w05-bold.otf);
+}
+
+@font-face {
+  font-family: Wayoshi;
+  src: url(../Fonts/wayoshi.ttf);
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.navitem {
+    font-family: SuperMario256;
+    display: inline;
+    margin: 3%;
+    font-size: 150%;
+    z-index: 2;
+}
+
+#navbargradient {
+  width: 100%;
+  height: 20vh;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(29,58,55,0) 6%, rgba(119,236,221,1) 39%);
+  opacity: 0.9;
+}
+
+.navbar {
+  margin: 0;
+  z-index: 2;
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  opacity: 0.9;
+}
+
+.navul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: -3%;
+    z-index: 2;
+}
+
+.filler {
+  opacity: 0;
+}
+
+#logoimg {
+    width: 10%;
+    z-index: 2;
+    position: relative;
+    top: 2vh;
+    left: 2.5%;
+}
+
+.navitemanchor {
+  text-decoration: none;
+  color: black;
+}
+
+.navitemanchor:hover {
+  color: red;
+}
+
+#navitemactive {
+  color: red;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #77ecdd transparent;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #77ecdd;
+    border-radius: 10px;
+    border: 3px solid transparent;
+  }

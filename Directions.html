@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dire Dire Dining</title>
+        <link rel="stylesheet" href="css/All.css">
+        <link rel="stylesheet" href="css/Directions.css">
+        <link rel="icon" type="image/x-icon" href="Images/FinalImages/Favicon.png">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <div id="navbargradient"></div>
+        <div class="navbar">
+            <a class="navitemanchor" id="nav0a" href="Index.html"><img alt="Dire Dire Dining Log" id="logoimg" src="Images/FinalImages/DireDireDiningLogo.png"></img></a>
+            <ul class="navul">
+                <li class="navitem filler">────────────────────</li>
+                <a class="navitemanchor" id="nav3a" href="Menu.html"><li class="navitem nav3">Menu</li></a>
+                <a class="navitemanchor" id="nav1a" href="Playce.html"><li class="navitem nav1">Playce</li></a>
+                <a class="navitemanchor" id="nav2a" href="GiftCards.html"><li class="navitem nav2">Merchandise</li></a>
+                <a class="navitemanchor" id="nav5a" href="Directions.html"><li class="navitem nav5">Contacts</li></a>
+            </ul>
+        </div><br><br><br><br><br><br><br><br>
+        
+        <!-- Maps -->
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.9153769520717!2d-118.40511628493482!3d34.07168348060063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc064aca4625%3A0xe828c3ad250ec639!2s9431%20S%20Santa%20Monica%20Blvd%2C%20Beverly%20Hills%2C%20CA%2090210!5e0!3m2!1sen!2sus!4v1652710971122!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><br>
+
+        <!-- Contact info -->
+        <div id="container">
+            <div id="address" class="contentdiv">
+                <h1 class="titles">Locations</h1>
+                <ul class="list">
+                    <li>9431 S Santa Monica Blvd, Beverly Hills, CA 90210</li>
+                </ul>
+            </div>
+            <div id="bar"></div>
+            <div id="othercontactinfo" class="contentdiv">
+                <h1 class="titles">Contact Info</h1>
+                <ul class="list">
+                    <li><a href="mailto:DireDireDining@gmail.com">DireDireDining@gmail.com</a></li>
+                    <li><a href="mailto:DireDireCorporate@gmail.com">DireDireCorporate@gmail.com</a></li>
+                    <li><a href="mailto:DireDireErrors@gmail.com">DireDireErrors@gmail.com</a></li>
+                    <li><a href="mailto:DireDireHumanResources@gmail.com">DireDireHumanResources@gmail.com</a></li>
+                    <li><a href="tel:8008291040">800-829-1040</a></li>
+                </ul>
+            </div>
+            <div id="bar"></div>
+            <div id="hours" class="contentdiv">
+                <h1 class="titles">Hours</h1>
+                <div id="hourscontainer">
+                    <ul class="list">
+                        <li><span class="boldspan">Sunday: </span>10:00 AM - 8:00 PM</li>
+                        <li><span class="boldspan">Monday: </span>10:00 AM - 8:00 PM</li>
+                        <li><span class="boldspan">Tuesday: </span>10:00 AM - 8:00 PM</li>
+                        <li><span class="boldspan">Wednesday: </span>Closed</li>
+                        <li><span class="boldspan">Thursday: </span>10:00 AM - 8:00 PM</li>
+                        <li><span class="boldspan">Friday: </span>10:00 AM - 10:00 PM</li>
+                        <li><span class="boldspan">Saturday: </span>10:00 AM - 10:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="reviewcontainer">
+            <div id="placereview">
+                <div id="reviewdata">
+                    <label class="label">Username: </label>
+                    <input type="text" id="username"></input>
+                    <br>
+                    <label class="label">Review: </label>
+                    <input type="text" id="review" placeholder="Optional" class="inputtextclass"></input>
+                    <!--<label class="label" id="profilelabel">Profile Picture: </label>
+                    <input type="file" id="imageinput" accept="image/*"></input>-->
+                </div>
+                <div id="Submitbuttondiv">
+                    <button id="submitbutton" onclick="enterfunction()">Submit Review</button>
+                </div>
+                <br>
+                <div id="stars">
+                    <img onclick="buttonclick(1)" alt="star" id="star1" class="starimg" src="images/FinalImages/UnfilledStar.svg"></img>
+                    <img onclick="buttonclick(2)" alt="star" id="star2" class="starimg" src="images/FinalImages/UnfilledStar.svg"></img>
+                    <img onclick="buttonclick(3)" alt="star" id="star3" class="starimg" src="images/FinalImages/UnfilledStar.svg"></img>
+                    <img onclick="buttonclick(4)" alt="star" id="star4" class="starimg" src="images/FinalImages/UnfilledStar.svg"></img>
+                    <img onclick="buttonclick(5)" alt="star" id="star5" class="starimg" src="images/FinalImages/UnfilledStar.svg"></img>
+                </div>
+            </div>
+            <div id="reviews">
+                <!-- Reviews go here -->
+                <!--
+                <div class="review">
+                    <h2 class="username">Generic User</h2>
+                    <p class="Review">Generic Review</p>
+                    <p class="starcountsreviews">Generic Star Count</p>
+                </div>
+                -->
+            </div>
+        </div>
+        <br><br><br><br><br>
+    </body>
+    <script src="js/Contacts.js"></script>
+    <script src="js/jquery.js"></script>
+</html>

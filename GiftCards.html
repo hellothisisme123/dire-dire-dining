@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dire Dire Dining</title>
+        <link rel="stylesheet" href="css/All.css">
+        <link rel="stylesheet" href="css/GiftCards.css">
+        <link rel="icon" type="image/x-icon" href="Images/FinalImages/Favicon.png">
+    </head>
+    <body onload="randomstartingshirt()" onclick="RemoveTheWar()">
+        <!-- Navbar -->
+        <div id="navbargradient"></div>
+        <div class="navbar">
+            <a class="navitemanchor" id="nav0a" href="Index.html"><img alt="Dire Dire Dining Logo" id="logoimg" src="Images/FinalImages/DireDireDiningLogo.png"></img></a>
+            <ul class="navul">
+                <li class="navitem filler">────────────────────</li>
+                <a class="navitemanchor" id="nav3a" href="Menu.html"><li class="navitem nav3">Menu</li></a>
+                <a class="navitemanchor" id="nav1a" href="Playce.html"><li class="navitem nav1">Playce</li></a>
+                <a class="navitemanchor" id="nav2a" href="GiftCards.html"><li class="navitem nav2">Merchandise</li></a>
+                <a class="navitemanchor" id="nav5a" href="Directions.html"><li class="navitem nav5">Contacts</li></a>
+            </ul>
+        </div><br><br><br><br><br><br><br><br><br>
+        
+        <!-- Buy Card -->
+        <div id="containerforthepage">
+            <div id="buycardcontainer">
+                <img alt="Gift Card" id="giftcardimg" src="Images/FinalImages/MarioCard.png"></img>
+            </div>
+            <div id="buycardinfocontainer">
+                <h1 id="GiftCardTitle"><span id="dollaramount">$25</span> Gift Card</h1>
+                <p id="starratings"><span id="starcount">★★★★★</span> <span id="reviewcount">2096 Reviews</span></p>
+                <p id="itemname">CARD<span id="cost">25</span></p>
+                <div id="horizontaldivideline"></div>
+                <p id="price">$<span id="costamount">25</span>.00</p>
+                <div class="buttonsdiv">
+                    <button id="button1" class="changeitembutton" onclick="button1()">$5</button>
+                    <button id="button2" class="changeitembutton" onclick="button2()">$25</button>
+                    <button id="button3" class="changeitembutton" onclick="button3()">$50</button>
+                    <button id="button4" class="changeitembutton" onclick="button4()">$100</button>
+                    <button id="button5" class="changeitembutton" onclick="button5()">$1000</button><br><br>
+                    <button id="BuyButton">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div id="WarioTakesOver">
+            <img alt="Wario Took over the store" id="warioimg" src="Images/FinalImages/WarioTakesOver.png"/>
+            <img alt="Caution Tape" id="cautiontape" src="Images/FinalImages/CautionTape.png"/>
+        </div>
+        <br><br><br><br><br>
+        <div id="Storefrontcontainer">
+            <div class="item">
+                <div class="displayimg">
+                    <img alt="Mens Mario Face Shirt" src="Images/FinalImages/BigMarioFace1.png" class="itemimg" id="Bigmariofaceshirt"></img>
+                    <br>
+                    <button class="changecolorbutton" id="shirtbutton1" onclick="changeimg(1)"></button>
+                    <button class="changecolorbutton" id="shirtbutton3" onclick="changeimg(3)"></button>
+                    <button class="changecolorbutton" id="shirtbutton4" onclick="changeimg(4)"></button>
+                    <h1 class="itemtitle">Mens Mario Face T-Shirt</h1>
+                    <h2 class="itemprice">$34.99</h2>
+                    <div class="itemdescription">
+                        <p>The official Nintendo Mario on a t-shirt. Made with a 50% cotton and 50% polyester blend and with the highest quality ink. This shirt isn't meant to be thrown away of tear and is designed to sustain the tests of time.</p>
+                    </div>
+                    <button class="buynowbutton">Buy Now</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="displayimg">
+                    <img alt="Womens Mario Face Shirt" src="Images/FinalImages/wBigMarioFace1.png" class="itemimg" id="wBigmariofaceshirt"></img>
+                    <br>
+                    <button class="changecolorbutton" id="wshirtbutton1" onclick="wchangeimg(1)"></button>
+                    <button class="changecolorbutton" id="wshirtbutton3" onclick="wchangeimg(3)"></button>
+                    <button class="changecolorbutton" id="wshirtbutton4" onclick="wchangeimg(4)"></button>
+                    <h1 class="itemtitle">Womens Mario Face T-Shirt</h1>
+                    <h2 class="itemprice">$34.99</h2>
+                    <div class="itemdescription">
+                        <p>The official Nintendo Mario on a youth t-shirt. Made with a 50% cotton and 50% polyester blend and with the highest quality ink. This shirt isn't meant to be thrown away of tear and is designed to sustain the tests of time.</p>
+                    </div>
+                    <button class="buynowbutton">Buy Now</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="displayimg">
+                    <img alt="Youth Mario face shirt" src="Images/FinalImages/yBigMarioFace1.png" class="itemimg" id="yBigmariofaceshirt"></img>
+                    <br>
+                    <button class="changecolorbutton" id="yshirtbutton1" onclick="ychangeimg(1)"></button>
+                    <button class="changecolorbutton" id="yshirtbutton3" onclick="ychangeimg(3)"></button>
+                    <button class="changecolorbutton" id="yshirtbutton4" onclick="ychangeimg(4)"></button>
+                    <h1 class="itemtitle">Youth Mario Face T-Shirt</h1>
+                    <h2 class="itemprice">$29.99</h2>
+                    <div class="itemdescription">
+                        <p>The official Nintendo Mario on a womens t-shirt. Made with a 50% cotton and 50% polyester blend and with the highest quality ink. This shirt isn't meant to be thrown away of tear and is designed to sustain the tests of time, and the tests of children.</p>
+                    </div>
+                    <button class="buynowbutton">Buy Now</button>
+                </div>
+            </div>
+            <div class="item space">
+                <div class="displayimg">
+                    <img alt="Mario logo sweatshirt" src="Images/FinalImages/MarioSweatshirt.png" class="itemimg" id="MarioSweatshirt"></img>
+                    <br>
+                    <button class="changesidebutton" id="MarioSweatshirtshirtbutton1" onclick="MarioSweatshirtchangeimg(1)">Front</button>
+                    <button class="changesidebutton" id="MarioSweatshirtshirtbutton2" onclick="MarioSweatshirtchangeimg(2)">Back</button>
+                    <h1 class="itemtitle">Unisex Classic Mario Logo Sweatshirt</h1>
+                    <h2 class="itemprice">$59.99</h2>
+                    <div class="itemdescription">
+                        <p>The classic Mario Logo on a simple but elegant sweatshirt. Made with a 50% cotton and 50% polyester blend and with the highest quality ink. </p>
+                    </div>
+                    <button class="buynowbutton">Buy Now</button>
+                </div>
+            </div>
+            <div class="item space">
+                <div class="displayimg">
+                    <img alt="Blue mario sweatshirt" src="Images/FinalImages/MarioBlueSweatshirt.png" class="itemimg" id="MarioSweatshirt"></img>
+                    <br>
+                    <button class="changecolorbutton" id="bluesweatshirtbutton" onclick=""></button>
+                    <h1 class="itemtitle">Unisex Blue Mario Art Sweatshirt</h1>
+                    <h2 class="itemprice">$59.99</h2>
+                    <div class="itemdescription">
+                        <p>All original Mario art on a simple but elegant sweatshirt. Made with a 50% cotton and 50% polyester blend and with the highest quality ink and has the softest feel imaginable. </p>
+                    </div>
+                    <button class="buynowbutton">Buy Now</button>
+                </div>
+            </div>
+            <div class="item space">
+                <div class="displayimg">
+                    <img alt="Graphic mario sweatshirt" src="Images/FinalImages/GraphicSweatshirt1bg.png" class="itemimg" id="GraphicSweatshirt"></img>
+                    <br>
+                    <button class="changecolorbutton" id="shirtsweatshirtgraphicbutton1" onclick="changesweatshirtgraphicimg(1)"></button>
+                    <button class="changecolorbutton" id="shirtsweatshirtgraphicbutton3" onclick="changesweatshirtgraphicimg(3)"></button>
+                    <button class="changecolorbutton" id="shirtsweatshirtgraphicbutton4" onclick="changesweatshirtgraphicimg(4)"></button>
+                    <h1 class="itemtitle">Unisex Mario Art Retro Graphic Hoodie</h1>
+                    <h2 class="itemprice">$59.99</h2>
+                    <div class="itemdescription">
+                        <p>Durable, light Super Mario Graphic hoodie. This product has been Nintendo Verified and tested to be ready for the average consumer. It comes in 3 different colors and is the same price for each. Made of 80% Cotton and 20% Polyester it is one of the most comfortable sweatshirts on the market</p>
+                    </div>
+                    <button class="buynowbutton">Buy Now</button>
+                </div>
+            </div>
+            <div class="item space">
+                <div class="displayimg">
+                    <img alt="Mario Poster" src="Images/FinalImages/MarioPoster1.jpg" class="itemimg" id="MarioPoster1"></img>
+                    <br>
+                    <h1 class="itemtitle">Super Mario 64 Wall Poster</h1>
+                    <h2 class="itemprice">$9.99</h2>
+                    <div class="itemdescription">
+                        <p>The official Super Mario 64 Poster for your wall. Meant to last with high quality printer ink, sourced locally. </p>
+                    </div>
+                    <button class="buynowbutton">Buy Now</button>
+                </div>
+            </div>
+            <div class="item space">
+                <div class="displayimg">
+                    <img alt="Mario poster" src="Images/FinalImages/MarioPoster2.jpg" class="itemimg" id="MarioPoster2"></img>
+                    <br>
+                    <h1 class="itemtitle">Super Mario Graphic Art Framed Wall Poster</h1>
+                    <h2 class="itemprice">$9.99</h2>
+                    <div class="itemdescription">
+                        <p>The unofficial Mario Graphic art Poster for your wall. Meant to last with high quality printer ink, sourced locally. </p>
+                    </div>
+                    <button class="buynowbutton">Buy Now</button>
+                </div>
+            </div>
+            <div class="item space">
+                <div class="displayimg">
+                    <img alt="mario poster" src="Images/FinalImages/MarioPoster3.jpg" class="itemimg" id="MarioPoster3"></img>
+                    <br>
+                    <h1 class="itemtitle">Super Mario Jump Wall Poster</h1>
+                    <h2 class="itemprice">$9.99</h2>
+                    <div class="itemdescription">
+                        <p>The unofficial Mario Graphic art Poster for your wall. Meant to last with high quality printer ink, sourced locally. </p>
+                    </div>
+                    <button class="buynowbutton">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </body>
+    <script src="js/jquery.js"></script>
+    <script src="js/GiftCards.js"></script>
+</html>

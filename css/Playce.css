@@ -1,0 +1,26 @@
+#containerme {
+    text-align: center;
+}
+
+html {
+    background-image: url("../Images/FinalImages/DeepBackground.jpg");
+    background-size: cover;
+    background-position-y: 0vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#sm64id {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: SuperMario256;
+    z-index: 1;
+}
+
+#sm64gameplay {
+    z-index: 1;
+}
+
+#nav1a {
+    color: #e61817;
+}

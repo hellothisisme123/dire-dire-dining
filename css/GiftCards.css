@@ -1,0 +1,259 @@
+#buycardcontainer {
+    background-color: transparent;
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+    margin: 0;
+}
+
+#buycardinfocontainer {
+    background-color: transparent;
+    width: 45%;
+    display: inline-block;
+    padding-left: 5%;
+}
+
+#containerforthepage {
+    background-color: transparent;
+    display: flex;
+}
+
+#giftcardimg {
+    width: 75%;
+}
+
+#GiftCardTitle {
+    text-align: left;
+    font-family: Calibri;
+    font-size: 200%;
+}
+
+#starratings {
+    margin-top: -2.5%;
+    font-size: 150%;
+}
+
+#itemname {
+    opacity: 50%;
+    font-family: Calibri;
+    margin-top: -3.5%;
+    font-size: 100%;
+}
+
+#nav2a {
+    color: #e61817;
+}
+
+#horizontaldivideline {
+    width: 75%;
+    height: 0.25vh;
+    background-color: black;
+}
+
+#reviewcount {
+    font-size: 75%;
+    font-family: Calibri;
+}
+
+#price {
+    font-size: 125%;
+    font-family: Calibri;
+}
+
+.changeitembutton {
+    width: 4vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    border: 1px solid black;
+    color: white;
+    opacity: 0.75;
+}
+
+.changeitembutton:hover {
+    opacity: 1;
+}
+
+#button1 {
+    background-color: #48ad16;
+}
+
+#button2 {
+    background-color: #e4000f;
+}
+
+#button3 {
+    background-color: #55aa00;
+}
+
+#button4 {
+    background-color: #540674;
+}
+
+#button5 {
+    background-color: #fdd50b;
+    opacity: 0;
+}
+
+#button5:hover {
+    opacity: 1;
+}
+
+#BuyButton {
+    width: 75%;
+    height: 5vh;
+}
+
+#warioimg {
+    position: fixed;
+    top: 18%;
+    left: 35%;
+    width: 35%;
+    filter: invert(100%);
+    opacity: 0;
+    z-index: 4;
+    animation-timing-function: ease-in;
+}
+
+.warioimganimationclass {
+    animation: warioimg 1s 1;
+}
+
+@keyframes warioimg {
+    0% { top: -100%; left: 0%; }
+    100% { top: 18%; left: 35%;}
+}
+
+#cautiontape {
+    position: fixed;
+    top: 9%;
+    left: 0;
+    z-index: 3;
+    filter: invert(100%);
+    opacity: 0;
+}
+
+#Storefrontcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 75vh;
+    border: 1px solid transparent;
+    background-color: #f0f0f0;
+    border-radius: 1vh;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.71); 
+    box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.71);
+    display: inline-block;
+}
+
+.itemimg {
+    max-height: 25vh;
+}
+
+.changecolorbutton {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100%;
+}
+
+#shirtsweatshirtgraphicbutton1 {
+    background-color: #000000;
+}
+
+#shirtsweatshirtgraphicbutton3 {
+    background-color: #5C6278;
+}
+
+#shirtsweatshirtgraphicbutton4 {
+    background-color: #4169e1;
+}
+
+#shirtbutton1 {
+    background-color: #000000;
+}
+
+#shirtbutton3 {
+    background-color: #5C6278;
+}
+
+#shirtbutton4 {
+    background-color: #4169e1;
+}
+
+#wshirtbutton1 {
+    background-color: #000000;
+}
+
+#wshirtbutton3 {
+    background-color: #5C6278;
+}
+
+#wshirtbutton4 {
+    background-color: #4169e1;
+}
+
+#yshirtbutton1 {
+    background-color: #000000;
+}
+
+#yshirtbutton3 {
+    background-color: #5C6278;
+}
+
+#yshirtbutton4 {
+    background-color: #4169e1;
+}
+
+#bluesweatshirtbutton {
+    background-color: #4169e1;
+}
+
+.itemtitle {
+    text-align: center;
+    font-family: SuperMario256;
+    font-size: 125%;
+}
+
+.itemprice {
+    font-family: Calibri;
+}
+
+.itemdescription {
+    font-family: Calibri;
+    padding-left: 2%;
+    padding-right: 2%;
+    overflow-y: scroll;
+}
+
+.buynowbutton {
+    width: 40%;
+    height: 5vh;
+    font-size: 115%;
+}
+
+.buynowbutton:hover {
+    background-color: #f0f0f0;
+}
+
+.changesidebutton {
+    width: 5vw;
+    height: 2vw;
+    border-radius: 1vw;
+    text-align: center;
+    font-size: 115%;
+}
+
+.changesidebutton:hover {
+    background-color: #ffffff;
+}
+
+.space {
+    margin-top: 10vh;
+}
